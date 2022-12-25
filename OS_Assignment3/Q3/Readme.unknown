@@ -1,0 +1,5 @@
+The file 3 kern mod.c contains the code to create a module. The process task struct info function
+in the module accesses the task struct of the process after retrieving it using the find vpid()
+call and printing the details of the process in the kernel log.Once 3 kern mod.ko has been created
+using makefile, it may be loaded using the insmod call and then used to view the message log using
+the dmesg call.
