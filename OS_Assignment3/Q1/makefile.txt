@@ -1,5 +1,0 @@
-default:
-    gcc 1_a_order.c -o 1_a_order -lpthread
-    gcc 1_a_sem.c -o 1_a_sem -lpthread
-    gcc 1_b_order.c -o 1_b_order -lpthread
-    gcc 1_b_sem.c -o 1_b_sem -lpthread
